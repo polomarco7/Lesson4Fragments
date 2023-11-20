@@ -11,9 +11,7 @@ import androidx.fragment.app.setFragmentResultListener
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.example.lesson3fragments.FRAGMENT_USER_EDIT_TAG
-import com.example.lesson3fragments.R
 import com.example.lesson3fragments.REQUEST_KEY_EDIT
-import com.example.lesson3fragments.databinding.FragmentABinding
 import com.example.lesson3fragments.databinding.FragmentUserListBinding
 import com.example.lesson3fragments.ui.main.OnButtonsClickListener
 import kotlinx.coroutines.flow.launchIn

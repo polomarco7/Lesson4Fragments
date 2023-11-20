@@ -2,7 +2,6 @@ package com.example.lesson3fragments.part2
 
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -11,9 +10,7 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.setFragmentResult
 import com.example.lesson3fragments.FRAGMENT_USER_LIST_TAG
 import com.example.lesson3fragments.REQUEST_KEY_EDIT
-import com.example.lesson3fragments.STRING_TO_C_KEY
 import com.example.lesson3fragments.databinding.FragmentUserEditBinding
-import com.example.lesson3fragments.ui.main.CFragment
 import com.example.lesson3fragments.ui.main.OnButtonsClickListener
 
 class UserEditFragment : Fragment() {

@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
 class UserListViewModel : ViewModel() {
-    val repository = Repository()
+    private val repository = Repository()
     private val _users = MutableStateFlow<List<Users>>(emptyList())
     val users: StateFlow<List<Users>> = _users.asStateFlow()
 
