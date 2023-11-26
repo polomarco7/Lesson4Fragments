@@ -4,8 +4,7 @@
     android:layout_marginHorizontal="4dp"
     android:layout_marginTop="4dp"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:background="@color/material_dynamic_neutral90">
+    android:layout_height="100dp">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/image"
